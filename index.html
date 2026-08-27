@@ -141,6 +141,48 @@
   @media (prefers-reduced-motion: reduce){
     .ring, .ring-progress{ animation:none !important; }
   }
+
+  /* link para o regulamento completo */
+  .reg-jump{ text-align:center; margin-top:22px; }
+  .reg-jump a{
+    color:var(--cyan); font-size:13px; text-decoration:none; font-weight:600;
+    border-bottom:1px dotted var(--cyan); padding-bottom:2px;
+  }
+  .reg-jump a:hover{ color:#fff; border-color:#fff; }
+
+  /* regulamento na integra */
+  .reg-wrap{ max-width:820px; margin:70px auto 0; padding:0 20px; }
+  .reg-head{ text-align:center; margin-bottom:26px; }
+  .reg-head .eyebrow{ margin-bottom:8px; }
+  .reg-head h2{
+    font-family:'Barlow Condensed',sans-serif; font-weight:800; text-transform:uppercase;
+    font-size:clamp(26px,5vw,38px); margin:0 0 8px; letter-spacing:.01em;
+  }
+  .reg-head p{ color:var(--slate); font-size:14px; max-width:520px; margin:0 auto; line-height:1.6; }
+
+  .chapter{
+    background:var(--navy-card); border:1px solid var(--line); border-radius:14px;
+    margin-bottom:12px; overflow:hidden;
+  }
+  .chapter summary{
+    cursor:pointer; list-style:none; padding:16px 20px;
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:.02em;
+    font-size:17px; text-transform:uppercase; color:#fff;
+  }
+  .chapter summary::-webkit-details-marker{ display:none; }
+  .chapter summary .arrow{ color:var(--amber); font-family:'Inter',sans-serif; font-size:14px; transition: transform .2s ease; flex:0 0 auto; }
+  .chapter[open] summary .arrow{ transform: rotate(90deg); }
+  .chapter-body{ padding:4px 22px 20px; }
+  .article-block{ margin-bottom:16px; }
+  .article-num{
+    font-weight:700; color:var(--cyan); font-size:14px; display:block; margin-bottom:3px;
+  }
+  .article-text{ font-size:14.5px; line-height:1.65; color:#dde2f5; }
+  .article-text .paragrafo{ display:block; margin-top:6px; padding-left:14px; color:#c3cae8; font-size:14px; }
+  .anexo-note{
+    font-size:13px; color:var(--slate); font-style:italic; padding:10px 20px 16px;
+  }
 </style>
 </head>
 <body>
@@ -179,6 +221,400 @@
 
   <div id="results"></div>
   <p class="hint" id="hint">Toque em um tema acima ou digite sua dúvida — a busca considera palavras parecidas mesmo sem acento.</p>
+
+  <div class="reg-jump"><a href="#regulamento-completo">↓ Ver o regulamento completo, artigo por artigo</a></div>
+</div>
+
+<div class="reg-wrap" id="regulamento-completo">
+  <div class="reg-head">
+    <div class="eyebrow">Documento oficial</div>
+    <h2>Regulamento na íntegra</h2>
+    <p>Os 118 artigos e os anexos do Regulamento das Sabatinas Eleitorais 2026, organizados por capítulo. Toque em um capítulo para abrir.</p>
+  </div>
+
+  <details class="chapter">
+    <summary>Capítulo I — Das Disposições Gerais <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 1º</span><span class="article-text">Este Regulamento estabelece as normas que disciplinam a realização das Sabatinas Eleitorais promovidas pela Salvador FM durante a cobertura das Eleições 2026, definindo os critérios de participação, o formato das entrevistas, os procedimentos operacionais, os direitos e deveres das candidaturas participantes e as demais disposições aplicáveis à realização do projeto.</span></div>
+      <div class="article-block"><span class="article-num">Art. 2º</span><span class="article-text">As Sabatinas Eleitorais têm como objetivo proporcionar à população um espaço plural de informação, interesse público e esclarecimento democrático, permitindo que as candidaturas ao Governo do Estado da Bahia apresentem suas propostas, exponham suas ideias e respondam aos questionamentos elaborados pela equipe de jornalismo da Salvador FM, por jornalistas convidados e pela população.</span></div>
+      <div class="article-block"><span class="article-num">Art. 3º</span><span class="article-text">As Sabatinas serão conduzidas em conformidade com os princípios da independência editorial, da isonomia entre as candidaturas participantes, da transparência, da liberdade de imprensa, da impessoalidade, do contraditório jornalístico, do interesse público e do respeito à legislação eleitoral vigente.</span></div>
+      <div class="article-block"><span class="article-num">Art. 4º</span><span class="article-text">A realização das Sabatinas constitui iniciativa editorial da Salvador FM, cabendo exclusivamente à emissora a definição de seu formato, cronograma, equipe de condução, critérios jornalísticos, identidade visual, transmissão e demais aspectos operacionais, observadas as disposições deste Regulamento, da legislação aplicável e das eventuais decisões da Justiça Eleitoral.</span></div>
+      <div class="article-block"><span class="article-num">Art. 5º</span><span class="article-text">A participação da candidatura nas Sabatinas implica a ciência e a concordância integral com este Regulamento, mediante assinatura do Termo de Ciência e Concordância por representante legalmente habilitado ou por pessoa formalmente autorizada pela campanha.</span></div>
+      <div class="article-block"><span class="article-num">Art. 6º</span><span class="article-text">As Sabatinas serão transmitidas ao vivo pela programação da Salvador FM, por meio do dial (92.3 FM), do site oficial, do aplicativo oficial e do canal oficial no YouTube da Salvador FM, podendo também ser distribuídas, retransmitidas, reproduzidas e disponibilizadas posteriormente em quaisquer plataformas da emissora e parceiras.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo II — Da Participação <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 7º</span><span class="article-text">As Sabatinas Eleitorais serão realizadas no formato de entrevistas jornalísticas individuais com candidaturas ao Governo do Estado da Bahia, observados os critérios de participação estabelecidos pela Salvador FM, a legislação eleitoral vigente e as normas previstas neste Regulamento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 8º</span><span class="article-text">A definição das candidaturas participantes será realizada pela Salvador FM, em conformidade com a legislação eleitoral aplicável e os critérios legais vigentes na data de realização das Sabatinas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 9º</span><span class="article-text">A definição da ordem de participação das candidaturas nas Sabatinas será realizada por meio de sorteio formal, durante reunião com as campanhas regularmente convocadas.
+        <span class="paragrafo">§ 1º O sorteio ocorrerá durante a reunião oficial de apresentação das regras das Sabatinas, no dia 10 de agosto de 2026, a partir das 15h, na sede da Salvador FM, localizada na Rua Pompílio Bittencourt, Lote 9, Pernambués, Salvador/BA.</span>
+        <span class="paragrafo">§ 2º O sorteio será realizado na presença das campanhas participantes que comparecerem à reunião e definirá a ordem de participação das candidaturas nas Sabatinas, observado o cronograma estabelecido pela Salvador FM.</span>
+        <span class="paragrafo">§ 3º Todo o procedimento de sorteio será integralmente gravado pela Salvador FM, com o objetivo de garantir transparência e possibilitar futura conferência.</span>
+        <span class="paragrafo">§ 4º Mediante solicitação oficial da campanha interessada, a gravação do sorteio poderá ser disponibilizada pela Salvador FM, preferencialmente em formato digital, em até 2 (dois) dias úteis após o recebimento da solicitação.</span>
+        <span class="paragrafo">§ 5º O cronograma oficial das Sabatinas será divulgado às campanhas após a realização do sorteio, por meio dos canais oficiais de comunicação previamente informados por cada campanha.</span>
+        <span class="paragrafo">§ 6º A ausência de representante de qualquer campanha na reunião ou no sorteio não impedirá sua realização, nem invalidará os resultados obtidos, desde que a campanha tenha sido regularmente convocada pela Salvador FM.</span>
+        <span class="paragrafo">§ 7º A ausência de representante da campanha na reunião de apresentação das regras e no sorteio não impedirá a participação da candidatura nas Sabatinas. Nessa hipótese, a campanha ficará automaticamente vinculada ao resultado do sorteio e às deliberações regularmente realizadas durante a reunião, desde que tenha sido previamente convocada pela Salvador FM.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 10</span><span class="article-text">A campanha deverá confirmar oficialmente sua participação até o prazo estabelecido pela Salvador FM, comunicado individualmente a cada campanha por e-mail, WhatsApp ou outro canal oficial previsto no Art. 114 deste Regulamento.
+        <span class="paragrafo">Parágrafo único. A ausência de confirmação dentro do prazo estabelecido será considerada desistência da participação na Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 11</span><span class="article-text">Em caso de desistência, ausência ou impossibilidade de comparecimento da candidatura após a confirmação, a Salvador FM manterá a realização do programa no horário previsto.
+        <span class="paragrafo">§ 1º Durante o programa será registrada a ausência da candidatura.</span>
+        <span class="paragrafo">§ 2º A cadeira destinada ao participante permanecerá vazia durante toda a Sabatina.</span>
+        <span class="paragrafo">§ 3º As perguntas originalmente previstas serão lidas normalmente pela bancada.</span>
+        <span class="paragrafo">§ 4º Encerrada a leitura das perguntas, o tempo restante será destinado a uma mesa-redonda conduzida pela equipe de jornalismo da Salvador FM, com análise do cenário eleitoral e dos temas que seriam abordados durante a entrevista.</span>
+        <span class="paragrafo">§ 5º A mesa-redonda observará critérios jornalísticos, linguagem informativa e tratamento isonômico, vedada sua utilização para promover ou prejudicar candidatura específica.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 12</span><span class="article-text">A substituição do candidato pelo candidato a Vice-Governador dependerá de solicitação formal da campanha e de autorização prévia da Direção de Jornalismo da Salvador FM.
+        <span class="paragrafo">Parágrafo único. Uma vez autorizada a substituição, o representante ficará integralmente submetido às mesmas regras, tempos, procedimentos e questionamentos previstos para as candidaturas originalmente convidadas.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo III — Do Acesso à Emissora e da Permanência nas Dependências <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 13</span><span class="article-text">A candidatura deverá comparecer aos estúdios da Salvador FM com antecedência mínima de 45 (quarenta e cinco) minutos em relação ao horário previsto para o início da transmissão.
+        <span class="paragrafo">Parágrafo único. O comparecimento dentro do prazo estabelecido é condição indispensável para a participação na Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 14</span><span class="article-text">Ao chegar à emissora, a candidatura será recepcionada pela equipe de produção e conduzida ao camarim disponibilizado pela emissora.
+        <span class="paragrafo">§ 1º Antes do início da transmissão, a equipe de produção e a Direção de Jornalismo poderão realizar um último alinhamento operacional, esclarecer dúvidas sobre este Regulamento e repassar orientações técnicas referentes à participação no programa.</span>
+        <span class="paragrafo">§ 2º Não haverá qualquer discussão, negociação ou alteração das regras da Sabatina após o início da transmissão.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 15</span><span class="article-text">Durante o período que antecede a entrevista, a candidatura permanecerá no camarim disponibilizado pela emissora até ser conduzida ao estúdio.</span></div>
+      <div class="article-block"><span class="article-num">Art. 16</span><span class="article-text">Não haverá credenciamento formal para acesso às dependências da Salvador FM, cabendo exclusivamente à equipe de produção controlar a entrada e a circulação das pessoas autorizadas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 17</span><span class="article-text">Cada candidatura poderá ser acompanhada por até 3 (três) assessores e até 2 (dois) profissionais de mídia, além da equipe de segurança pessoal, quando houver.
+        <span class="paragrafo">§ 1º A permanência no estúdio será limitada a 1 (um) assessor e até 2 (dois) profissionais de mídia, destinados exclusivamente ao registro fotográfico e à produção de conteúdo para redes sociais.</span>
+        <span class="paragrafo">§ 2º A equipe de produção poderá autorizar o revezamento entre os profissionais previamente autorizados, desde que não haja prejuízo ao andamento da transmissão.</span>
+        <span class="paragrafo">§ 3º Os acompanhantes deverão permanecer exclusivamente nos locais indicados pela equipe de produção, sendo vedada qualquer interferência na operação técnica, na condução editorial do programa, na circulação dos profissionais da emissora ou no andamento da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 18</span><span class="article-text">Não será permitida a presença de plateia durante a realização da Sabatina.</span></div>
+      <div class="article-block"><span class="article-num">Art. 19</span><span class="article-text">A Salvador FM disponibilizará água à candidatura durante sua permanência na emissora.</span></div>
+      <div class="article-block"><span class="article-num">Art. 20</span><span class="article-text">Após o início da Sabatina, não será permitida qualquer comunicação entre a candidatura e sua equipe de campanha, seja de forma verbal, gestual, escrita ou por meio de equipamentos eletrônicos, ressalvadas situações excepcionais autorizadas pela Direção do Programa por motivo de força maior.</span></div>
+      <div class="article-block"><span class="article-num">Art. 21</span><span class="article-text">Com o objetivo de preservar a imparcialidade, a igualdade de condições entre as candidaturas e a independência editorial da Salvador FM, não será permitido qualquer contato entre a candidatura e os integrantes da bancada antes do início da Sabatina.
+        <span class="paragrafo">§ 1º Antes do início da transmissão, a candidatura manterá contato exclusivamente com a equipe de produção e com a Direção de Jornalismo, para fins de orientações operacionais e esclarecimento de dúvidas sobre este Regulamento.</span>
+        <span class="paragrafo">§ 2º Não será permitido à candidatura, à campanha ou a seus representantes solicitar, receber ou ter acesso antecipado às perguntas que serão formuladas durante a Sabatina, aos temas que comporão o sorteio, às perguntas do quadro Fala Povo, à pergunta do jornalista convidado ou a qualquer outro conteúdo editorial preparado pela equipe de jornalismo da Salvador FM.</span>
+        <span class="paragrafo">§ 3º Da mesma forma, a equipe de jornalismo, os apresentadores, jornalistas convidados e demais profissionais envolvidos na elaboração do conteúdo editorial não terão acesso prévio às respostas, materiais ou estratégias de comunicação preparados pelas candidaturas para a realização da Sabatina.</span>
+        <span class="paragrafo">§ 4º Qualquer tentativa de obtenção, antecipação ou compartilhamento de informações protegidas por este artigo deverá ser imediatamente comunicada à Direção de Jornalismo da Salvador FM, que adotará as medidas cabíveis previstas neste Regulamento.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 22</span><span class="article-text">Os profissionais de mídia autorizados pela Salvador FM poderão realizar registros fotográficos e de vídeo exclusivamente nos locais indicados pela equipe de produção, sem interferir na condução da Sabatina ou na operação técnica da emissora.
+        <span class="paragrafo">§ 1º É vedada a utilização de flash, iluminação auxiliar, refletores, tripés, monopés ou qualquer outro equipamento que possa comprometer a transmissão, interferir na iluminação do estúdio ou causar distração aos participantes.</span>
+        <span class="paragrafo">§ 2º A captação de imagens deverá ocorrer de forma silenciosa e discreta, respeitando as orientações da equipe de produção.</span>
+        <span class="paragrafo">§ 3º O descumprimento das disposições deste artigo poderá resultar na retirada imediata do profissional das dependências do estúdio, sem prejuízo da permanência da candidatura na Sabatina.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo IV — Da Estrutura da Sabatina <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 23</span><span class="article-text">As Sabatinas serão realizadas ao vivo, observando rigorosamente a estrutura estabelecida neste Regulamento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 24</span><span class="article-text">Cada Sabatina terá duração total de 55 (cinquenta e cinco) minutos, distribuídos da seguinte forma: I - abertura do programa; II - apresentação da bancada; III - apresentação das regras da Sabatina ao público; IV - apresentação da candidatura; V - considerações iniciais da candidatura; VI - bloco de perguntas; VII - considerações finais da candidatura; VIII - encerramento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 25</span><span class="article-text">A apresentação das regras ao público será realizada por meio de vídeo institucional produzido pela Salvador FM.</span></div>
+      <div class="article-block"><span class="article-num">Art. 26</span><span class="article-text">A apresentação da candidatura será realizada exclusivamente pela equipe de jornalismo da Salvador FM, utilizando informações objetivas previamente apuradas pela emissora.
+        <span class="paragrafo">§ 1º A apresentação poderá conter, entre outras informações: I - nome da candidatura; II - partido; III - coligação, quando houver; IV - trajetória profissional; V - trajetória política.</span>
+        <span class="paragrafo">§ 2º Não haverá pedido de voto, slogan de campanha, número eleitoral, peça publicitária ou qualquer conteúdo de natureza promocional durante a apresentação da candidatura.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 27</span><span class="article-text">Após a apresentação realizada pela equipe de jornalismo, a candidatura terá até 1 (um) minuto e 30 (trinta) segundos para suas considerações iniciais.
+        <span class="paragrafo">§ 1º As considerações iniciais ocorrerão antes do início da contagem oficial do tempo destinado à Sabatina.</span>
+        <span class="paragrafo">§ 2º Durante as considerações iniciais, a candidatura poderá cumprimentar o público e realizar uma breve apresentação de sua participação.</span>
+        <span class="paragrafo">§ 3º Não será permitido pedido explícito de voto, divulgação de número eleitoral, slogan de campanha ou qualquer manifestação de propaganda eleitoral durante as considerações iniciais.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 28</span><span class="article-text">Encerradas as considerações iniciais, o apresentador declarará oficialmente o início da Sabatina, momento em que terá início a contagem oficial dos 45 (quarenta e cinco) minutos destinados às perguntas e respostas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 29</span><span class="article-text">A sequência da Sabatina obedecerá obrigatoriamente à seguinte ordem: I - Fala Povo; II - pergunta da bancada; III - sorteio de dois temas; IV - manifestação da candidatura sobre o primeiro tema sorteado; V - manifestação da candidatura sobre o segundo tema sorteado; VI - pergunta do jornalista convidado; VII - nova pergunta da bancada; VIII - novo Fala Povo; IX - perguntas alternadas da bancada até o encerramento do tempo regulamentar; X - considerações finais da candidatura.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo V — Do Controle Oficial do Tempo <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 30</span><span class="article-text">O tempo oficial destinado à Sabatina será de 45 (quarenta e cinco) minutos, contados a partir da declaração oficial de início feita pelo apresentador após as considerações iniciais da candidatura.
+        <span class="paragrafo">Parágrafo único. As considerações iniciais e as considerações finais não integram o tempo oficial da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 31</span><span class="article-text">O tempo oficial da Sabatina compreenderá exclusivamente o período destinado às perguntas e respostas, incluindo o tempo utilizado para a formulação das perguntas pela bancada, pelo quadro Fala Povo e pelo jornalista convidado.</span></div>
+      <div class="article-block"><span class="article-num">Art. 32</span><span class="article-text">Cada resposta da candidatura terá duração máxima de 3 (três) minutos.
+        <span class="paragrafo">§ 1º A contagem do tempo individual de resposta terá início imediatamente após a conclusão da pergunta.</span>
+        <span class="paragrafo">§ 2º Caso a candidatura solicite a repetição da pergunta, a contagem dos 3 (três) minutos terá início somente após a conclusão da repetição.</span>
+        <span class="paragrafo">§ 3º A repetição da pergunta não interrompe nem suspende a contagem dos 45 (quarenta e cinco) minutos da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 33</span><span class="article-text">O tempo destinado à resposta pertence exclusivamente à candidatura.
+        <span class="paragrafo">Parágrafo único. Caso a candidatura encerre sua manifestação antes do limite de 3 (três) minutos, o tempo remanescente será considerado renunciado, não podendo ser utilizado posteriormente.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 34</span><span class="article-text">A candidatura poderá solicitar a repetição integral da pergunta quando entender necessário ao correto entendimento do questionamento.
+        <span class="paragrafo">Parágrafo único. A repetição da pergunta será realizada pelo mesmo jornalista ou apresentador que a formulou.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 35</span><span class="article-text">O controle oficial do tempo será realizado por cronômetro exibido no retorno de vídeo disponibilizado à candidatura.
+        <span class="paragrafo">§ 1º O cronômetro exibido no retorno de vídeo será a referência oficial para todos os efeitos deste Regulamento.</span>
+        <span class="paragrafo">§ 2º A Salvador FM manterá cronômetros auxiliares para acompanhamento da produção, operação técnica e Direção do Programa, destinados exclusivamente à conferência e segurança operacional.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 36</span><span class="article-text">Durante as respostas haverá sinalização visual permanente do tempo restante.
+        <span class="paragrafo">Parágrafo único. A candidatura receberá aviso sonoro quando restarem 30 (trinta) segundos para o encerramento do tempo e novo aviso ao término dos 3 (três) minutos.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 37</span><span class="article-text">Encerrado o tempo regulamentar de resposta, o apresentador determinará o encerramento da manifestação.
+        <span class="paragrafo">§ 1º Caso a candidatura permaneça falando após o encerramento do tempo regulamentar, o microfone será desligado imediatamente.</span>
+        <span class="paragrafo">§ 2º O microfone permanecerá desligado até que seja restabelecida a condução normal da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 38</span><span class="article-text">Toda pergunta iniciada antes do encerramento dos 45 (quarenta e cinco) minutos da Sabatina assegurará à candidatura o direito de utilizar integralmente os 3 (três) minutos regulamentares para resposta, ainda que sua manifestação ultrapasse o tempo oficial da Sabatina.</span></div>
+      <div class="article-block"><span class="article-num">Art. 39</span><span class="article-text">Identificada qualquer falha técnica que comprometa a realização da Sabatina, o Diretor do Programa, em conjunto com o Coordenador de Jornalismo, poderá determinar a interrupção da contagem do tempo.
+        <span class="paragrafo">§ 1º Sanada a falha técnica, a Sabatina será retomada exatamente do ponto em que foi interrompida.</span>
+        <span class="paragrafo">§ 2º Caso a falha impossibilite a continuidade da transmissão, a Salvador FM poderá remarcar a Sabatina para nova data, comunicando oficialmente a candidatura.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 40</span><span class="article-text">Caso ocorra indisponibilidade da transmissão no YouTube, permanecendo a transmissão no rádio, a Sabatina terá continuidade normalmente.
+        <span class="paragrafo">Parágrafo único. A íntegra da transmissão será posteriormente disponibilizada no canal oficial da Salvador FM.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 41</span><span class="article-text">Caso ocorra indisponibilidade da transmissão no rádio, permanecendo a transmissão pelas plataformas digitais, a Sabatina seguirá normalmente.</span></div>
+      <div class="article-block"><span class="article-num">Art. 42</span><span class="article-text">Em caso de interrupção total da transmissão por falta de energia elétrica ou outro evento de força maior, a Salvador FM aguardará até 5 (cinco) minutos para o restabelecimento das condições técnicas.
+        <span class="paragrafo">Parágrafo único. Persistindo a impossibilidade de continuidade da transmissão, a Sabatina será remarcada para nova data, a ser comunicada oficialmente à candidatura.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 43</span><span class="article-text">Nenhuma candidatura poderá alegar prejuízo em razão do tempo consumido pela formulação das perguntas, uma vez que o tempo oficial de 45 (quarenta e cinco) minutos compreende, para todos os participantes, tanto as perguntas quanto as respostas, observando-se tratamento isonômico.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo VI — Do Quadro "Fala Povo" <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 44</span><span class="article-text">O quadro Fala Povo integra a estrutura oficial das Sabatinas Eleitorais e tem por objetivo permitir que a população participe diretamente da entrevista por meio de perguntas previamente gravadas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 45</span><span class="article-text">As perguntas do quadro Fala Povo serão produzidas exclusivamente pela equipe de jornalismo da Salvador FM.
+        <span class="paragrafo">§ 1º As gravações serão realizadas em diferentes bairros de Salvador, buscando contemplar diversidade geográfica e social.</span>
+        <span class="paragrafo">§ 2º A seleção dos participantes observará critérios exclusivamente jornalísticos, vedada qualquer interferência das candidaturas, partidos políticos, coligações ou terceiros.</span>
+        <span class="paragrafo">§ 3º O quadro Fala Povo não possui natureza de pesquisa, enquete ou consulta de opinião eleitoral, destinando-se exclusivamente à formulação de perguntas de interesse público às candidaturas.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 46</span><span class="article-text">As perguntas serão gravadas em vídeo e apresentadas durante a Sabatina por seus respectivos autores.
+        <span class="paragrafo">§ 1º As perguntas terão caráter espontâneo e serão formuladas pelos próprios participantes.</span>
+        <span class="paragrafo">§ 2º A equipe de jornalismo poderá orientar os participantes exclusivamente quanto à duração da gravação, qualidade técnica do registro e clareza da pergunta, sem interferir em seu conteúdo.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 47</span><span class="article-text">Cada candidatura responderá a 2 (duas) perguntas do quadro Fala Povo durante sua Sabatina.
+        <span class="paragrafo">Parágrafo único. A quantidade total de perguntas produzidas para cada edição será definida pela equipe de jornalismo da Salvador FM, observando o planejamento editorial do programa.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 48</span><span class="article-text">As perguntas do quadro Fala Povo abordarão exclusivamente temas relacionados à administração pública, políticas públicas, propostas de governo e assuntos de interesse coletivo.
+        <span class="paragrafo">§ 1º Não serão utilizadas perguntas contendo ofensas, ataques pessoais, propaganda eleitoral, pedido de voto, conteúdo discriminatório ou manifestações que contrariem a legislação vigente.</span>
+        <span class="paragrafo">§ 2º As perguntas não terão por objetivo aferir intenção de voto, preferência eleitoral ou avaliação das candidaturas.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 49</span><span class="article-text">As candidaturas não terão acesso prévio às perguntas que serão exibidas durante o quadro Fala Povo.</span></div>
+      <div class="article-block"><span class="article-num">Art. 50</span><span class="article-text">As imagens, vozes e demais conteúdos produzidos para o quadro Fala Povo integrarão o acervo audiovisual da Salvador FM e poderão ser utilizados pela emissora em suas transmissões, plataformas digitais, reportagens, chamadas e demais conteúdos editoriais.
+        <span class="paragrafo">Parágrafo único. É vedada às candidaturas a utilização das imagens dos participantes do quadro Fala Povo em peças de campanha, material publicitário eleitoral ou qualquer conteúdo que possa sugerir apoio político por parte dos entrevistados, salvo mediante autorização expressa do participante e observada a legislação aplicável.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo VII — Das Perguntas da Bancada <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 51</span><span class="article-text">As perguntas da bancada serão elaboradas livremente pelos jornalistas da Salvador FM, observados os princípios da independência editorial, do interesse público, da legislação eleitoral vigente e deste Regulamento.
+        <span class="paragrafo">Parágrafo único. A formulação das perguntas constitui prerrogativa exclusiva da equipe de jornalismo da Salvador FM, não sendo submetida previamente às candidaturas nem sujeita à sua aprovação.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 52</span><span class="article-text">As campanhas, candidaturas, partidos políticos, coligações ou quaisquer terceiros não terão acesso prévio às perguntas formuladas pela bancada, nem participarão de sua elaboração, aprovação ou revisão.</span></div>
+      <div class="article-block"><span class="article-num">Art. 53</span><span class="article-text">As perguntas poderão ser alteradas até o momento de sua formulação, inclusive em razão de fatos jornalísticos supervenientes ou acontecimentos relevantes ocorridos antes ou durante a Sabatina.</span></div>
+      <div class="article-block"><span class="article-num">Art. 54</span><span class="article-text">As perguntas serão formuladas alternadamente pelos integrantes da bancada, não sendo permitida a realização de perguntas consecutivas pelo mesmo jornalista, salvo em situações excepcionais autorizadas pela Direção do Programa.</span></div>
+      <div class="article-block"><span class="article-num">Art. 55</span><span class="article-text">Não haverá quantidade mínima ou máxima de perguntas por integrante da bancada, respeitada a alternância prevista neste Regulamento e o tempo oficial da Sabatina.</span></div>
+      <div class="article-block"><span class="article-num">Art. 56</span><span class="article-text">As perguntas da bancada poderão abordar quaisquer temas de interesse público relacionados ao exercício do cargo de Governador do Estado, à administração pública, às propostas da candidatura, ao cenário político, à gestão pública, a fatos de conhecimento público ou a acontecimentos jornalísticos relevantes.</span></div>
+      <div class="article-block"><span class="article-num">Art. 57</span><span class="article-text">A candidatura poderá mencionar outras candidaturas, partidos políticos, agentes públicos ou fatos relacionados ao processo eleitoral, desde que respeitada a legislação vigente.
+        <span class="paragrafo">Parágrafo único. Não será permitida a imputação de crime, a realização de acusações sem fundamento ou qualquer manifestação que possa caracterizar ofensa à honra, à imagem ou aos direitos de terceiros, em desacordo com a legislação brasileira e eleitoral.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 58</span><span class="article-text">Caso a candidatura deixe de responder à pergunta formulada ou se afaste completamente do tema proposto, o jornalista poderá solicitar que a resposta seja direcionada ao questionamento originalmente apresentado.</span></div>
+      <div class="article-block"><span class="article-num">Art. 59</span><span class="article-text">A critério da bancada, poderá ser realizada nova intervenção para esclarecimento ou retomada do tema quando a resposta apresentada não guardar relação com a pergunta formulada ou quando houver necessidade de contextualização dos fatos.</span></div>
+      <div class="article-block"><span class="article-num">Art. 60</span><span class="article-text">Não haverá perguntas complementares, réplicas ou tréplicas durante a Sabatina, ressalvadas as hipóteses previstas neste Regulamento para retomada do tema ou esclarecimento de informações.</span></div>
+      <div class="article-block"><span class="article-num">Art. 61</span><span class="article-text">Caso a candidatura apresente informação manifestamente incompatível com dados públicos verificáveis ou cuja veracidade dependa de esclarecimento jornalístico imediato, a bancada poderá utilizar a pergunta seguinte para solicitar esclarecimentos, confrontar a informação ou contextualizar os fatos, sem concessão de tempo adicional à candidatura.
+        <span class="paragrafo">Parágrafo único. A Salvador FM poderá realizar checagem posterior das informações apresentadas durante a Sabatina, publicando o resultado em seus veículos oficiais e, quando entender necessário em razão da relevância do tema, promover esclarecimentos em sua programação jornalística.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 62</span><span class="article-text">As perguntas formuladas pela bancada não representarão posicionamento institucional da Salvador FM, constituindo instrumento de interesse jornalístico destinado à obtenção de esclarecimentos e informações de interesse público.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo VIII — Do Sorteio dos Temas <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 63</span><span class="article-text">O sorteio dos temas integra a estrutura oficial da Sabatina e tem como objetivo permitir que a candidatura apresente suas propostas sobre assuntos de interesse da administração pública estadual.</span></div>
+      <div class="article-block"><span class="article-num">Art. 64</span><span class="article-text">Os temas que comporão o sorteio serão previamente definidos pela equipe de jornalismo da Salvador FM e divulgados às campanhas antes do início das Sabatinas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 65</span><span class="article-text">O sorteio será realizado ao vivo, no estúdio, por meio de urna física preparada pela equipe de produção da Salvador FM.
+        <span class="paragrafo">§ 1º A candidatura realizará pessoalmente o sorteio dos temas.</span>
+        <span class="paragrafo">§ 2º Os temas permanecerão lacrados e sem identificação externa até o momento do sorteio.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 66</span><span class="article-text">Cada candidatura sorteará 2 (dois) temas.
+        <span class="paragrafo">§ 1º Após o sorteio do primeiro tema, a candidatura realizará sua manifestação antes da realização do segundo sorteio.</span>
+        <span class="paragrafo">§ 2º Encerrada a manifestação sobre o primeiro tema, será realizado o sorteio do segundo tema, observando-se o mesmo procedimento.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 67</span><span class="article-text">Cada tema sorteado poderá ser utilizado apenas uma única vez durante o ciclo das Sabatinas.
+        <span class="paragrafo">Parágrafo único. Após ser sorteado, o tema não retornará à urna.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 68</span><span class="article-text">A candidatura não poderá recusar, substituir ou solicitar novo sorteio de qualquer tema.</span></div>
+      <div class="article-block"><span class="article-num">Art. 69</span><span class="article-text">Após o anúncio do tema, a candidatura iniciará imediatamente sua manifestação, observado o tempo regulamentar previsto neste Regulamento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 70</span><span class="article-text">Durante o bloco de sorteio dos temas não haverá perguntas complementares por parte da bancada.
+        <span class="paragrafo">Parágrafo único. Eventuais questionamentos relacionados aos temas sorteados poderão ser formulados posteriormente pela bancada, dentro da dinâmica normal da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 71</span><span class="article-text">As campanhas não terão acesso prévio à ordem dos temas na urna, ao posicionamento dos envelopes ou a qualquer informação que possa influenciar ou comprometer a lisura do sorteio.</span></div>
+      <div class="article-block"><span class="article-num">Art. 72</span><span class="article-text">A organização, preparação, conferência e guarda da urna e dos temas sorteáveis serão de responsabilidade exclusiva da equipe de produção da Salvador FM, sob supervisão da Direção de Jornalismo.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo IX — Do Jornalista Convidado <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 73</span><span class="article-text">Cada Sabatina contará com a participação de 1 (um) jornalista convidado, responsável pela formulação de uma pergunta à candidatura.</span></div>
+      <div class="article-block"><span class="article-num">Art. 74</span><span class="article-text">O jornalista convidado será selecionado exclusivamente pela equipe de jornalismo da Salvador FM, observados critérios editoriais e jornalísticos.
+        <span class="paragrafo">§ 1º Poderão ser convidados profissionais de jornais, emissoras de televisão, emissoras de rádio, portais de notícias, revistas, agências de notícias ou outros veículos de comunicação.</span>
+        <span class="paragrafo">§ 2º A seleção do jornalista convidado observará exclusivamente critérios editoriais e jornalísticos da Salvador FM, não cabendo às candidaturas qualquer participação ou interferência nesse processo.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 75</span><span class="article-text">A identidade do jornalista convidado e o conteúdo de sua pergunta não serão informados previamente às candidaturas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 76</span><span class="article-text">A pergunta será gravada em vídeo exclusivamente para a respectiva Sabatina.
+        <span class="paragrafo">Parágrafo único. A pergunta será exibida uma única vez durante a transmissão, observado o momento previsto na estrutura oficial da Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 77</span><span class="article-text">Não haverá censura prévia ao conteúdo da pergunta formulada pelo jornalista convidado, observados os limites da legislação vigente e deste Regulamento.
+        <span class="paragrafo">§ 1º Caberá exclusivamente ao jornalista convidado a elaboração de sua pergunta.</span>
+        <span class="paragrafo">§ 2º A Salvador FM poderá deixar de exibir pergunta que contenha manifestação ofensiva, discriminatória, ilícita ou em desacordo com a legislação vigente.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 78</span><span class="article-text">Não será permitida a formulação de pergunta complementar pelo jornalista convidado.</span></div>
+      <div class="article-block"><span class="article-num">Art. 79</span><span class="article-text">A resposta ao jornalista convidado observará as mesmas regras de tempo, conduta e procedimentos aplicáveis às demais perguntas previstas neste Regulamento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 80</span><span class="article-text">A participação do jornalista convidado não caracteriza vínculo editorial, institucional ou comercial com a Salvador FM, sendo sua colaboração restrita à formulação da pergunta exibida durante a Sabatina.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo X — Das Condutas, Materiais e Equipamentos <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 81</span><span class="article-text">Durante a realização da Sabatina, a candidatura deverá manter conduta compatível com os princípios do respeito institucional, da civilidade, da legislação eleitoral vigente e das normas estabelecidas neste Regulamento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 82</span><span class="article-text">Será permitido à candidatura utilizar exclusivamente material impresso para consulta durante a Sabatina.
+        <span class="paragrafo">§ 1º Consideram-se materiais impressos documentos, anotações, folhas, relatórios, livros e demais conteúdos em meio físico.</span>
+        <span class="paragrafo">§ 2º O material impresso poderá ser consultado livremente pela candidatura durante a entrevista.</span>
+        <span class="paragrafo">§ 3º Não será permitido exibir qualquer material impresso às câmeras ou utilizá-lo como recurso visual para o público.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 83</span><span class="article-text">É vedada a utilização de qualquer equipamento eletrônico pela candidatura durante a Sabatina.
+        <span class="paragrafo">§ 1º Incluem-se entre os equipamentos vedados aparelhos celulares, tablets, notebooks, fones de ouvido, computadores ou qualquer equipamento eletrônico semelhante.</span>
+        <span class="paragrafo">§ 2º Os equipamentos eletrônicos deverão permanecer com a equipe da campanha ou guardados junto aos pertences da candidatura, não podendo ser utilizados durante a Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 84</span><span class="article-text">Será permitido à candidatura utilizar broche ou adesivo discreto de identificação, fixado exclusivamente em sua roupa.
+        <span class="paragrafo">§ 1º Não será permitida vestimenta contendo pedido de voto, número eleitoral em destaque, slogan de campanha ou composição visual que caracterize peça de propaganda eleitoral.</span>
+        <span class="paragrafo">§ 2º Não será permitida a utilização, exibição ou colocação sobre a mesa de bandeiras, santinhos, panfletos, cartazes, placas, brindes ou quaisquer outros materiais promocionais.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 85</span><span class="article-text">Não será permitida a utilização de recursos audiovisuais, equipamentos de reprodução de áudio ou vídeo, gráficos, fotografias, imagens, telas, banners, apresentações ou quaisquer outros elementos destinados a complementar visualmente as respostas da candidatura.</span></div>
+      <div class="article-block"><span class="article-num">Art. 86</span><span class="article-text">A candidatura poderá mencionar dados, estatísticas, pesquisas e informações públicas durante suas respostas, observado o disposto na legislação eleitoral vigente.
+        <span class="paragrafo">Parágrafo único. A utilização de pesquisa eleitoral deverá observar integralmente os requisitos legais aplicáveis, especialmente quanto ao seu registro e divulgação.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 87</span><span class="article-text">É vedada qualquer tentativa de descredibilizar, sem fundamento, o processo eleitoral, as instituições públicas, a Justiça Eleitoral ou o sistema democrático, bem como a prática de condutas que contrariem a legislação vigente.</span></div>
+      <div class="article-block"><span class="article-num">Art. 88</span><span class="article-text">Não será permitida a imputação de crime ou de fato definido como ilícito a qualquer pessoa sem respaldo em elementos públicos verificáveis, documentos oficiais ou decisão judicial.
+        <span class="paragrafo">Parágrafo único. A Salvador FM poderá interromper a manifestação da candidatura sempre que identificar conteúdo potencialmente ilícito ou em desacordo com este Regulamento, adotando as medidas cabíveis.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 89</span><span class="article-text">Não será permitido ofender, intimidar ou desrespeitar jornalistas, profissionais da Salvador FM, jornalistas convidados, integrantes da produção ou qualquer outro participante da Sabatina.
+        <span class="paragrafo">Parágrafo único. Também não será permitida a utilização da entrevista para desacreditar, sem fundamento, o processo eleitoral, as instituições públicas ou a atividade jornalística.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo XI — Da Transmissão, Cobertura e Utilização do Conteúdo <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 90</span><span class="article-text">As Sabatinas serão transmitidas ao vivo pela programação da Salvador FM, por meio da frequência 92,3 FM, do site oficial da emissora, do aplicativo oficial da Salvador FM e do canal oficial da emissora no YouTube.
+        <span class="paragrafo">Parágrafo único. A Salvador FM poderá retransmitir a programação por outros meios oficiais de distribuição, quando entender conveniente.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 91</span><span class="article-text">A transmissão ocorrerá em tempo real, sem atraso intencional, ressalvadas as limitações técnicas inerentes às plataformas de distribuição e transmissão.</span></div>
+      <div class="article-block"><span class="article-num">Art. 92</span><span class="article-text">A Salvador FM realizará cobertura jornalística das Sabatinas em seus veículos oficiais de comunicação, incluindo a programação da emissora, o Portal Salvador FM, suas redes sociais e demais plataformas oficiais.</span></div>
+      <div class="article-block"><span class="article-num">Art. 93</span><span class="article-text">A íntegra de todas as Sabatinas permanecerá disponível no canal oficial da Salvador FM no YouTube enquanto houver interesse editorial da emissora.</span></div>
+      <div class="article-block"><span class="article-num">Art. 94</span><span class="article-text">A Salvador FM poderá produzir e publicar cortes, trechos, chamadas, reportagens, entrevistas, vídeos curtos, podcasts e quaisquer outros conteúdos derivados das Sabatinas.
+        <span class="paragrafo">§ 1º A produção desses conteúdos observará critérios exclusivamente jornalísticos.</span>
+        <span class="paragrafo">§ 2º A Salvador FM assegurará tratamento editorial equivalente entre as candidaturas na produção e divulgação dos conteúdos derivados, observados critérios jornalísticos e fatos supervenientes de interesse público.</span>
+        <span class="paragrafo">§ 3º Os conteúdos derivados preservarão o contexto das declarações originalmente prestadas pela candidatura.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 95</span><span class="article-text">As candidaturas poderão compartilhar a íntegra da Sabatina ou trechos da transmissão em seus canais oficiais.
+        <span class="paragrafo">§ 1º O conteúdo compartilhado deverá preservar integralmente o contexto da manifestação originalmente exibida.</span>
+        <span class="paragrafo">§ 2º É vedada qualquer edição que altere o contexto, o sentido ou a sequência das perguntas, respostas ou manifestações ocorridas durante a Sabatina.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 96</span><span class="article-text">Mediante solicitação oficial encaminhada ao e-mail informado pela Salvador FM, a candidatura poderá solicitar cópia da íntegra da Sabatina.
+        <span class="paragrafo">Parágrafo único. O material será disponibilizado, sempre que possível, em até 2 (dois) dias úteis após o recebimento da solicitação.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 97</span><span class="article-text">A Salvador FM poderá disponibilizar imagens, áudios ou trechos das Sabatinas para utilização por outros veículos de comunicação, observados seus critérios editoriais.</span></div>
+      <div class="article-block"><span class="article-num">Art. 98</span><span class="article-text">A utilização do conteúdo das Sabatinas por terceiros não caracteriza qualquer forma de apoio, endosso, associação institucional ou concordância da Salvador FM com o conteúdo posteriormente produzido por esses veículos ou pelas candidaturas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 99</span><span class="article-text">A Salvador FM reserva-se o direito de utilizar, enquanto houver interesse editorial, o conteúdo produzido durante as Sabatinas, no todo ou em parte, em materiais institucionais, documentários, retrospectivas, campanhas institucionais, reportagens, conteúdos comemorativos e demais produções editoriais da emissora, em qualquer plataforma de comunicação de sua titularidade.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo XII — Do Descumprimento das Regras e das Medidas Aplicáveis <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 100</span><span class="article-text">O descumprimento das disposições previstas neste Regulamento poderá ensejar a adoção de medidas pela Salvador FM, observados os princípios da razoabilidade, da proporcionalidade e da legislação vigente.</span></div>
+      <div class="article-block"><span class="article-num">Art. 101</span><span class="article-text">Caberá ao Diretor do Programa e ao Coordenador de Jornalismo avaliar conjuntamente cada situação ocorrida durante a Sabatina e deliberar sobre as providências necessárias.</span></div>
+      <div class="article-block"><span class="article-num">Art. 102</span><span class="article-text">As medidas poderão ser adotadas de forma isolada ou cumulativa, de acordo com a gravidade da conduta.</span></div>
+      <div class="article-block"><span class="article-num">Art. 103</span><span class="article-text">Entre as medidas aplicáveis, poderão ser adotadas, quando cabíveis: I - advertência verbal; II - interrupção da manifestação; III - desligamento do microfone; IV - desconsideração da manifestação realizada após o encerramento do tempo regulamentar; V - retirada de materiais ou equipamentos utilizados em desacordo com este Regulamento; VI - retirada de profissionais da campanha que estejam descumprindo as normas estabelecidas; VII - adoção de outras providências necessárias para garantir a continuidade, a segurança e a regularidade da Sabatina.</span></div>
+      <div class="article-block"><span class="article-num">Art. 104</span><span class="article-text">Sempre que possível, a candidatura será previamente advertida antes da adoção de medida mais gravosa.
+        <span class="paragrafo">Parágrafo único. A advertência poderá ser dispensada quando a conduta representar risco à continuidade da transmissão, configurar descumprimento grave deste Regulamento ou contrariar a legislação vigente.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 105</span><span class="article-text">O eventual descumprimento deste Regulamento por integrantes da campanha não impedirá a continuidade da Sabatina, salvo quando a conduta tornar inviável sua realização.</span></div>
+      <div class="article-block"><span class="article-num">Art. 106</span><span class="article-text">As decisões adotadas durante a transmissão terão efeito exclusivamente para a condução da Sabatina, sem prejuízo das medidas administrativas ou judiciais eventualmente cabíveis.</span></div>
+      <div class="article-block"><span class="article-num">Art. 107</span><span class="article-text">A Salvador FM cumprirá integralmente toda decisão judicial relacionada às Sabatinas, promovendo os ajustes operacionais necessários para seu fiel cumprimento.</span></div>
+      <div class="article-block"><span class="article-num">Art. 108</span><span class="article-text">Caso decisão judicial, alteração legislativa ou determinação da Justiça Eleitoral imponha mudanças neste Regulamento após sua divulgação, a Salvador FM comunicará oficialmente todas as campanhas participantes.
+        <span class="paragrafo">Parágrafo único. Havendo alteração das regras originalmente apresentadas, será solicitada nova manifestação de ciência e concordância pelas campanhas participantes.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 109</span><span class="article-text">Os casos omissos neste Regulamento serão analisados e decididos conjuntamente pelo Diretor do Programa e pelo Coordenador de Jornalismo, observada a legislação vigente e, quando necessário, mediante consulta ao corpo jurídico da Salvador FM.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Capítulo XIII — Das Disposições Finais <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-num">Art. 110</span><span class="article-text">Este Regulamento entra em vigor na data de sua divulgação oficial às campanhas participantes, produzindo efeitos até o encerramento de todas as atividades relacionadas às Sabatinas Eleitorais promovidas pela Salvador FM.</span></div>
+      <div class="article-block"><span class="article-num">Art. 111</span><span class="article-text">A participação da candidatura nas Sabatinas implica a plena ciência e concordância com todas as normas estabelecidas neste Regulamento.
+        <span class="paragrafo">Parágrafo único. A ciência e concordância serão formalizadas por meio da assinatura do Termo de Ciência e Concordância por representante devidamente autorizado pela candidatura.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 112</span><span class="article-text">A candidatura autoriza a captação, gravação, transmissão, reprodução e utilização de sua imagem, voz, nome e demais manifestações realizadas durante a Sabatina, nos termos deste Regulamento.
+        <span class="paragrafo">Parágrafo único. A autorização prevista neste artigo limita-se às finalidades jornalísticas, institucionais e editoriais relacionadas às atividades da Salvador FM.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 113</span><span class="article-text">Os anexos que acompanham este Regulamento integram seu conteúdo para todos os fins, possuindo a mesma validade das demais disposições aqui estabelecidas.</span></div>
+      <div class="article-block"><span class="article-num">Art. 114</span><span class="article-text">As comunicações oficiais entre a Salvador FM e as campanhas serão realizadas pelos canais previamente informados pelas partes, preferencialmente por correio eletrônico ou outro meio formal definido pela emissora.</span></div>
+      <div class="article-block"><span class="article-num">Art. 115</span><span class="article-text">Os anexos poderão ser atualizados pela Salvador FM sempre que necessário, desde que tais alterações não modifiquem as regras gerais estabelecidas neste Regulamento.
+        <span class="paragrafo">Parágrafo único. Sempre que houver atualização de anexos que impacte diretamente a participação das candidaturas, a Salvador FM dará ciência formal às campanhas participantes.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Art. 116</span><span class="article-text">Os casos omissos ou situações excepcionais serão decididos conjuntamente pelo Diretor do Programa e pelo Coordenador de Jornalismo, observadas a legislação eleitoral vigente e as normas deste Regulamento, e, quando necessário, mediante consulta ao corpo jurídico da Salvador FM.</span></div>
+      <div class="article-block"><span class="article-num">Art. 117</span><span class="article-text">O presente Regulamento é composto por seus Capítulos, Anexos e pelo Termo de Ciência e Concordância, formando um único instrumento para todos os fins.</span></div>
+      <div class="article-block"><span class="article-num">Art. 118</span><span class="article-text">O presente Regulamento foi elaborado com o objetivo de assegurar tratamento isonômico entre as candidaturas participantes, preservar a independência editorial da Salvador FM e garantir a adequada realização das Sabatinas Eleitorais 2026.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Anexo I — Cronograma Oficial das Sabatinas <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-text">O cronograma oficial das Sabatinas Eleitorais será elaborado e divulgado pela Salvador FM, contendo, no mínimo: I - programa em que será realizada a Sabatina; II - data; III - horário de início da transmissão; IV - horário de chegada da candidatura; V - candidatura participante; VI - ordem das Sabatinas; VII - demais informações operacionais que a Salvador FM considerar necessárias para a realização da Sabatina.
+        <span class="paragrafo">Parágrafo único. O cronograma poderá ser atualizado pela Salvador FM em razão de fatos supervenientes, decisões judiciais, alterações legislativas ou ajustes operacionais, sendo todas as campanhas oficialmente comunicadas.</span>
+      </span></div>
+      <div class="article-block"><span class="article-num">Da Comunicação com as Campanhas</span><span class="article-text">As informações constantes deste Anexo, bem como quaisquer alterações, comunicados, orientações operacionais ou documentos referentes às Sabatinas, serão encaminhadas aos canais oficiais previamente informados pela campanha.
+        <span class="paragrafo">§ 1º Consideram-se canais oficiais aqueles expressamente indicados pela campanha durante a reunião de apresentação das regras ou posteriormente formalizados junto à Salvador FM.</span>
+        <span class="paragrafo">§ 2º As comunicações poderão ser realizadas por correio eletrônico (e-mail), WhatsApp ou outro meio oficialmente informado e aceito entre as partes.</span>
+        <span class="paragrafo">§ 3º Considerar-se-á realizada a comunicação no momento do envio pela Salvador FM ao canal oficial informado pela campanha, cabendo à própria campanha acompanhar regularmente esses meios de comunicação.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Anexo II — Fluxo Oficial da Sabatina <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-text">A Sabatina seguirá, obrigatoriamente, a seguinte sequência: 1. Abertura do programa. 2. Apresentação dos integrantes da bancada. 3. Exibição do vídeo com as regras da Sabatina. 4. Apresentação institucional da candidatura pela equipe de jornalismo. 5. Considerações iniciais da candidatura (1 minuto e 30 segundos). 6. Início oficial da Sabatina e da contagem dos 45 minutos: a. Fala Povo. b. Pergunta da bancada. c. Sorteio do primeiro tema. d. Manifestação da candidatura sobre o primeiro tema. e. Sorteio do segundo tema. f. Manifestação da candidatura sobre o segundo tema. g. Pergunta do jornalista convidado. h. Pergunta da bancada. i. Fala Povo. j. Perguntas alternadas da bancada até o encerramento do tempo regulamentar. 7. Considerações finais da candidatura (3 minutos). 8. Encerramento da Sabatina.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Anexo III — Temas do Sorteio <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-text">Os temas que integrarão a urna de sorteio serão definidos pela equipe de jornalismo da Salvador FM. Os temas poderão ser atualizados antes do início das Sabatinas, mediante comunicação oficial às campanhas participantes.
+        <span class="paragrafo">Temas possíveis para sorteio: Regulação na saúde · Educação, ciência e tecnologia · Segurança pública · Geração de empregos · Infraestrutura e logística · Agropecuária · Combate à pobreza · Meio ambiente e recursos hídricos · Saneamento básico · Turismo · Cultura · Desenvolvimento regional · Esporte e lazer · Políticas para mulheres · Atração de investimentos e ambiente de negócios · Convivência com a seca no semiárido · Gestão fiscal · Conflitos por terra · Economia do mar · Energias renováveis.</span>
+      </span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Anexo IV — Termo de Ciência e Concordância <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-text">A candidatura abaixo identificada declara que recebeu integralmente o Regulamento das Sabatinas Eleitorais 2026 da Salvador FM, tendo realizado sua leitura e compreendido todas as regras, procedimentos e condições para participação. Declara, ainda, que concorda com todas as disposições constantes do Regulamento, comprometendo-se a observá-las integralmente durante a realização da Sabatina. Reconhece que a Salvador FM poderá adotar as medidas previstas no Regulamento em caso de descumprimento das normas estabelecidas. A campanha declara que recebeu uma via física e/ou digital do Regulamento das Sabatinas Eleitorais 2026, composto por 118 (cento e dezoito) artigos e 5 (cinco) anexos, declarando ciência de todo o seu conteúdo. O documento é assinado pela candidatura, com nome, partido, nome do representante, cargo e assinatura.</span></div>
+    </div>
+  </details>
+
+  <details class="chapter">
+    <summary>Anexo V — Contatos Oficiais <span class="arrow">›</span></summary>
+    <div class="chapter-body">
+      <div class="article-block"><span class="article-text">Todas as comunicações oficiais entre a Salvador FM e as campanhas participantes devem ocorrer pelos canais oficiais da emissora (Direção do Programa, Direção de Jornalismo e Produção). As campanhas devem informar, durante a reunião oficial de apresentação das regras, os contatos que serão considerados oficiais para recebimento de comunicados, documentos e demais informações referentes às Sabatinas.</span></div>
+      <p class="anexo-note">Os contatos individuais (e-mails e telefones diretos da equipe) não são exibidos nesta página pública, por se tratar de dado pessoal — estão disponíveis com a Direção do Programa mediante canal oficial.</p>
+    </div>
+  </details>
 </div>
 
 <footer>
